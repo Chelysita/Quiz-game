@@ -81,7 +81,11 @@ button:hover {
   text-align: left;
   transition: all 150ms ease-in-out;
 }
-
+.answer-btn:hover {
+  background-color: #f8c417;
+  border-color: #ce9e02;
+  color: black;
+}
 .answer-btn.correct {
   background-color: aquamarine;
   border-color: rgb(15, 143, 128);
