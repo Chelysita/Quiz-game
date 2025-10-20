@@ -9,10 +9,10 @@
   </head>
   <body>
     <div class="container">
-      <div class="screen " id="start-screen">
+      <div class="screen active" id="start-screen">
         <h1>Quiz Time!</h1>
         <p>Test your knowledge with these fun questions</p>
-        <button>Start Quiz</button>
+        <button id="start-btn">Start Quiz</button>
       </div>
       <div class="screen" id="questions-screen">
         <div class="quiz-header">
@@ -24,22 +24,20 @@
             </p>
             <p>Score: <span id="current-score">0</span></p>
           </div>
-          <div class="answers-container" id="answers-container">
-            <div class="answer-btn" id="answer-btn"></div>
-          </div>
+          <div class="answers-container" id="answers-container"></div>
           <div class="progress-bar">
             <div class="progress" id="progress"></div>
           </div>
         </div>
       </div>
-      <div class="screen  active" id="results-screen">
+      <div class="screen" id="results-screen">
         <h1>Quiz Results</h1>
         <div class="result-info">
           <p>
-            You scored <span id="correct-answers-number"></span>out of
-            <span id="max-questions-number"></span>
-            <div id="result-message">Good Job</div>
+            You scored <span id="correct-answers-number"> &nbsp;</span> out of
+            <span id="max-score"></span>
           </p>
+          <div id="result-message"></div>
         </div>
         <button id="restart-btn">Restart Quiz</button>
       </div>

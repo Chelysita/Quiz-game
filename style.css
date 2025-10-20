@@ -27,6 +27,9 @@ h1 {
   color: #2c7bd0;
   margin-bottom: 20px;
 }
+h2 {
+  margin-bottom: 15px;
+}
 p {
   color: #707070;
 }
@@ -70,7 +73,7 @@ button:hover {
 .answer-btn {
   background-color: #fedf7d;
   border-color: #f8c417;
-  color: 333;
+  color: black;
   border: 2px solid #f8c417;
   border-radius: 8px;
   padding: 20px;
@@ -81,16 +84,17 @@ button:hover {
 .answer-btn:hover {
   background-color: #f8c417;
   border-color: #ce9e02;
+  color: black;
 }
-.answer-btn-correct {
+.answer-btn.correct {
   background-color: aquamarine;
   border-color: rgb(15, 143, 128);
-  color: rgb(15, 74, 67);
+  color: black;
 }
-.answer-btn-incorrect {
+.answer-btn.incorrect {
   background-color: rgb(226, 94, 11);
   border-color: #fc0301;
-  color: #fc0301;
+  color: black;
 }
 .progress-bar {
   height: 10px;
